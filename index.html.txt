@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pocket Contractor</title>
+  <style>
+    :root {
+      --primary: #1B7A9A;
+      --accent: #b9b901;
+      --neutral: #f8f8f6;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background-color: var(--neutral);
+      color: #333;
+      line-height: 1.6;
+    }
+    header, section { padding: 2rem; }
+    .hero {
+      background-color: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .btn {
+      background-color: var(--accent);
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .steps, .features, .value-props, .testimonials, .cta, .contact {
+      background: white;
+      margin: 1rem auto;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h2 { text-align: center; margin-top: 0; }
+    ul, ol { padding-left: 2rem; }
+    .testimonial { padding: 1rem; border-top: 1px solid #eee; }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>No Salesman. No Hassle.</h1>
+    <p>Get bids from top renovation companies with just your phone.</p>
+    <a href="#signup" class="btn">Join the Beta</a>
+  </header>
+
+  <section class="steps">
+    <h2>How It Works</h2>
+    <ol>
+      <li><strong>Snap & Submit:</strong> Use our app to take photos, input measurements, and select your materials.</li>
+      <li><strong>Compare Bids:</strong> Receive competitive offers from verified contractors nationwide.</li>
+      <li><strong>Choose & Renovate:</strong> Hire the best fit. Communicate directly. No sales reps needed.</li>
+    </ol>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>AI-powered photo and measurement capture (RoomScan, MagicPlan integration)</li>
+      <li>Multi-contractor bidding with video pitches</li>
+      <li>Direct homeowner‑contractor chat after bid acceptance</li>
+      <li>Design visualization tools for previewing your renovation</li>
+      <li>Automated backend for contractor workflows (accounting, marketing, more)</li>
+    </ul>
+  </section>
+
+  <section class="value-props">
+    <h2>Why Pocket Contractor?</h2>
+    <ul>
+      <li>Save thousands on hidden commissions</li>
+      <li>Avoid intrusive in‑home sales visits</li>
+      <li>Get multiple bids in one place</li>
+      <li>Streamlined, trusted, and secure</li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <strong>Taylor, Renovation Sales Expert</strong>
+      <p>“Sales reps are going to be obsolete — this platform is the future.”</p>
+    </div>
+    <div class="testimonial">
+      <strong>Anton, Sustained Wealth Alliance</strong>
+      <p>“With Pocket Contractor, we’re building something every homeowner — and contractor — has been waiting for.”</p>
+    </div>
+  </section>
+
+  <section class="cta" id="signup">
+    <h2>Be Part of the Future of Renovation</h2>
+    <p>Whether you're a contractor or a homeowner — the renovation revolution starts now.</p>
+    <a href="#signup" class="btn">Join the Beta</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@pocketcontractor.ai">info@pocketcontractor.ai</a></p>
+    <p><a href="https://yourcalendlylink.com" target="_blank">Book a Call</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Pocket Contractor. All rights reserved.
+  </footer>
+
+</body>
+</html>
